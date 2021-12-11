@@ -2,29 +2,90 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A Portfolio for Jason Henshall" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Skills</title>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="/skills.html">Skills</a> |
-				<a href="/projects.html">Projects</a> |
-				<a href="/resume.html">Resume</a> |
-				<a href="/connect.html">Connect with me</a>
+		<header class="mainHeader">
+			<nav class="nav mainNav">
+				<ul>
+					<a href="/index.html">Home</a>
+					|
+					<a href="/skills.html">Skills</a>
+					|
+					<a href="/projects.html">Projects</a>
+					|
+					<a href="/resume.html">Resume</a>
+					|
+					<a href="/contactMe.html">Connect with me</a>
+				</ul>
 			</nav>
+			<h1 class="header header-Large">Jason Henshall</h1>
+			<div class="container">
+				<button class="btn btn-header" type="button">
+					See my latest Project
+				</button>
+			</div>
+			<br />
+			<br />
+			<!-- TODO Find a suitable background image -->
 		</header>
-		<section>
-			<h1>My Skills</h1>
+
+		<section class="content-section container">
+			<h2 class="section-header">My Skills</h2>
 			<div>
-				<h2>Programming languages</h2>
+				<h2 class="section-subHeader">Programming languages</h2>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript</li>
+					<li>Python</li>
+					<li>C++</li>
+				</ul>
+			</div>
+			<div>
+				<h2 class="section-subHeader">Frameworks</h2>
+				<ul>
 					<li>Bootstrap</li>
 				</ul>
 			</div>
+			<div>
+				<h2 class="section-subHeader">Other Skills</h2>
+				<ul>
+					<li>GitHub</li>
+					<li>Self Motivated</li>
+					<li>Problem Solver</li>
+				</ul>
+			</div>
 		</section>
-		<section></section>
+
+		<footer class="main-footer">
+			<div class="container main-footer-container">
+				<h3 class="header">Jason Henshall</h3>
+				<ul class="nav footernav">
+					<li>
+						<a
+							target="_blank"
+							href="https://www.youtube.com/channel/UCYat0JCCfMFMeQio6nnWwqQ"
+							><img src="images/icons/youtube.svg"
+						/></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							href="https://www.linkedin.com/in/jason-henshall-48027614b/"
+							><img src="images/icons/linkedin.svg"
+						/></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://github.com/Jase-99"
+							><img src="images/icons/github.svg"
+						/></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
