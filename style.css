@@ -18,6 +18,15 @@ html body {
 	padding: 0;
 }
 
+.projectsTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
 .nav ul {
 	margin: 0;
 }
