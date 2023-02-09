@@ -4,11 +4,9 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-
 p {
     line-height: 2;
 }
-
 h1 {
     font-size: 5.625rem;
     /*90px = 90px/16 = 5.625 -> 562.5% 16px = 1em */
@@ -47,41 +45,28 @@ hr {
     border-color: #d2e0e0;
     width: 4%;
     border-width: 5px;
-    margin: 100px auto;
+    margin:100px auto;
 }
 
 .top-container {
     background-color: #B9F3FC;
     position: relative;
     padding-top: 100px;
-    height: 100vh;
-    min-height: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
+
 }
 
 .mountain {
-    position: absolute;
-    margin: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    width: 100vw;
-    max-width: 600px;
+    margin-top: 180px;
 }
-
 .intro {
     width: 30%;
-    margin: auto;
+    margin:auto;
 
 }
-
 .middle-container {
-    margin: 100px 0;
+    margin:100px 0;
 }
-
+    
 .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
@@ -140,7 +125,6 @@ hr {
     width: 40%;
     margin: 40px auto 60px;
 }
-
 .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ab);
@@ -152,7 +136,7 @@ hr {
 }
 
 .copyright {
-    color: #EAF6F6;
+    color:#EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
 }
