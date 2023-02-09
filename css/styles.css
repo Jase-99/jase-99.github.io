@@ -68,6 +68,8 @@ hr {
     left: 0;
     right: 0;
     text-align: center;
+    width: 100vw;
+    max-width: 600px;
 }
 
 .intro {
